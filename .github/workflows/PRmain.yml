@@ -10,10 +10,10 @@ jobs:
   alert:
     runs-on: ubuntu-latest
     steps:
-    - uses: github.com/RPagels/CoreWithGitHubWorkflow/new/master
+    - uses: github.com/RPagels/CoreWithGitHubWorkflow@master
       env:
         ado_token: '${{ secrets.ADO_PERSONAL_ACCESS_TOKEN }}'   
-        github_token: '${{ secrets.GH_TOKEN }}' 
+        github_token: '${{ secrets.GH_TOKEN }}'    
         ado_organization: 'privatepreview'
         ado_project: 'Agile'
         ado_wit: 'Pull Request' 
