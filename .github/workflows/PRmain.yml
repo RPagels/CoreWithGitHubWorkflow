@@ -17,7 +17,7 @@ jobs:
     - uses: danhellem/github-actions-pr-to-work-item@0.03
       env:
         ado_token: '${{ secrets.ADO_PERSONAL_ACCESS_TOKEN }}'   
-        github_token: '${{ secrets.GH_TOKEN }}'    
+        github_token: '${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}'    
         ado_organization: 'privatepreview'
         ado_project: 'Agile'
         ado_wit: 'Pull Request' 
