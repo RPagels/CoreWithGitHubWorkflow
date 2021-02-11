@@ -1,4 +1,6 @@
-name: 'Sync Pull Requests to Azure Boards'
+- name: Sync Pull Requests to Azure Boards
+  uses: danhellem/github-actions-pr-to-work-item@0.03
+
 description: 'Create a work item in Azure DevOps when a Pull Request is created'
 author: 'danhellem'
 branding:
