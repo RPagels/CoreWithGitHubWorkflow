@@ -12,8 +12,8 @@ jobs:
     steps:
     - uses: github.com/RPagels/CoreWithGitHubWorkflow/new/master
       env:
-        ado_token: '${{ secrets.ADO_PERSONAL_ACCESS_TOKEN }}'   
-        github_token: '${{ secrets.GH_TOKEN }}'    
+        ado_token: '${{018b1d5d64db91d3be252a38ee832c9a316d24ec}}'   
+        github_token: '${{aoidj5zzmn7mnxurzqbs4uhhbd7xfkda6ucl75vunkftmdk53agq}}'    
         ado_organization: 'privatepreview'
         ado_project: 'Agile'
         ado_wit: 'Pull Request' 
