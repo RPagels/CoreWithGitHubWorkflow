@@ -2,7 +2,6 @@
 #
 #
 name: Sync Pull Request to Azure Boards
-#-uses: danhellem/github-actions-pr-to-work-item@0.03
 
 on:
   pull_request:
@@ -14,7 +13,7 @@ jobs:
   alert:
     runs-on: ubuntu-latest
     steps:
-    - uses: RPagels/CoreWithGitHubWorkflow@master
+    - uses: danhellem/github-actions-pr-to-work-item@0.03
       env:
         ado_token: '${{ secrets.ADO_PERSONAL_ACCESS_TOKEN }}'   
         github_token: '${{ secrets.GH_TOKEN }}'    
