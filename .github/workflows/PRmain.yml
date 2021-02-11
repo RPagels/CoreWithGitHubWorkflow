@@ -1,3 +1,4 @@
+#
 name: Sync Pull Request to Azure Boards
 
 on:
