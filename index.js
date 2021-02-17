@@ -43,6 +43,8 @@ module.exports = async function (context, req) {
     } catch (err) {
         context.log.error(err);
         context.log("Ooops! We got an error!!!");
+        console.error(err);
+        return false;
     } finally {
         // Serialize collected data into the response
         context.res = listener.serializeData();
