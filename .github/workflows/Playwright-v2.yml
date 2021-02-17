@@ -1,3 +1,5 @@
+name: Playwright-v2
+
 on:
   push:
     branches:
