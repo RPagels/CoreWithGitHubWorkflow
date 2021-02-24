@@ -13,7 +13,7 @@ env:
   LOCATION: "East US 2"
   HOSTINGPLANNAME: "CoreWithGitHubWorkflow-plan"
   APPINSIGHTLOCATION: "East US 2"
-  SKU: "B1 Basic"
+  SKU: "S1 Standard"
 
 jobs:
   build:
